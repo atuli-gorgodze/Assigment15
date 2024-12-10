@@ -1,0 +1,97 @@
+
+body{
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.blog-card{
+    width: 384px;
+    height: 522px;
+    border: 1px #000000 solid;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 0 #000000;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.blog-section{
+  width: 336px;
+  height: 194px;
+}
+
+.blog-btn{
+    font-family: "Figtree", sans-serif;
+    border: transparent;
+    background-color: #f4d04e;
+    border-radius: 4px;
+    width: 82px;
+    height: 29px;
+    color: #111111;
+    font-weight: 800;
+}
+
+h3{ 
+    font-family: Figtree;
+    font-weight: 500;
+    line-height: 17px;
+    color: #111111;
+}
+
+h1{
+    font-family: Figtree;
+    font-weight: 800;
+    line-height: 32px;
+    color: #111111;
+    transition: 0.3s;
+}
+
+h1:hover{
+    color: #f4d04e;
+}
+
+.blog-txt{
+    font-family: Figtree;
+    font-weight: 500;
+    line-height: 20px;
+    color: #6B6B6B;
+
+}
+
+.div-blog{
+    width: 410px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.name{  
+    font-family: Figtree;
+    font-weight: 800;
+}
+
+@media (max-width:576px){
+    .blog-image{
+        width: 279px;
+        height: 200px;
+    }
+
+    .blog-section{
+        width: 279px;
+        height: 200px;
+    }
+    .blog-card{
+        width: 327px;
+        height: 501px;
+    }
+
+   .div-blog{
+    width: 355px;
+   }
+}
